@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.25em;
+    font-weight: bold;
+    /* max font pour que le txt ne soit pas coupé en 320px */
+    font-size: 2.2em;
+    overflow: auto;
+}
+
+.bienvenue {
+    margin: 2em 1em 1em;
+}
