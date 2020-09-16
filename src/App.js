@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Title from './components/Title'
+import Footer from './containers/Footer'
 import Cards from './components/Cards'
 import Banner from './containers/Banner'
 
@@ -11,8 +11,9 @@ function App() {
        
       </header>
       <Banner />
-      <Title />
+      {/* <Title /> */}
       <Cards />
+      <Footer />
     </div>
   );
 }

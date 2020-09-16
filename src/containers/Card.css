@@ -3,49 +3,33 @@
  * @author: sylvana
  */
 
- /* en fonction du nom de l'image, donner une couleur de fond différente */
- .container {
-    background: transparent; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2em;
-    margin-bottom: 1em;
-  }
-  
-  .container > * {
-    max-width: 600px;
-    justify-content: center;
-    padding: 0.5em;
-    box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 0.5);
-    margin: 0.5em;
-    transition: 0.2s;
-    border-radius: 3px;
-    /* overflow: hidden; */
-  }
-  
-  .container > *:hover {
-    box-shadow: 0px 8px 20px 2px rgba(0, 0, 0, 0.4);
-    transform: scale(1.03);
-    border: 1px solid lime;
-  }
-  
-  .container > div > h1 {
-    padding-top: 0.5em;
-    color: rgb(104, 104, 253);
-    font-size: 1.2em;
-    text-align: center;
-  }
-  
-  .container > div > p {
-    color: teal;
-    font-size: 0.8em;
-    text-align: center;
-    overflow-wrap: break-word;
-  }
+/* en fonction du nom de l'image, donner une couleur de fond différente */
+.container {
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+  margin-bottom: 1em;
+}
 
-  .card {
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 3px;
-  }
+.container > * {
+  max-width: 600px;
+  justify-content: center;
+  padding: 0.5em;
+  box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 0.5);
+  margin: 0.5em;
+  transition: 0.2s;
+  border-radius: 3px;
+}
+
+.container > *:hover {
+  box-shadow: 0px 8px 20px 2px rgba(0, 0, 0, 0.4);
+  transform: scale(1.03);
+}
+
+.card {
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 10px;
+}

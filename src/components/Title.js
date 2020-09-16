@@ -58,7 +58,7 @@ export default class Title extends Component {
           key={Math.random(timestamp)}
           style={{
             color: this.state.colors[color],
-            textShadow: "1px 1px 2px black",
+            textShadow: "1px 2px 10px green",
           }}
         >
           {letter}
