@@ -9,7 +9,7 @@ import "./Card.css";
 
 export default class Card extends Component {
   render() {
-    const { outerLink, src, title, desc, color } = this.props.details;
+    const { outerLink, src, title, color } = this.props.details;
 
     return (
       <div style={{ backgroundColor: color }}>
