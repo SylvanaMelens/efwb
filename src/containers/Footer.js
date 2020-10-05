@@ -1,24 +1,24 @@
 /**
  * site web-carte de visite en REACT
- * @author: sylvana
+ * @author: Sylvana MELENS
  */
 
 import React from "react";
 
 const styles = {
   copyright: {
-    position: "fixed",
+    position: "relative",
     bottom: "0",
     display: "flex",
     justifyContent: "center",
-    backgroundColor: "darkorange",
+    // backgroundColor: "darkorange",
     paddingLeft: "0.5em",
     marginTop: "0.5em",
-    width: "100%",
+
   },
   text: {
     color: "#222",
-    fontSize: "0.8em",
+    fontSize: "0.5em",
     fontStyle: "italic",
     marginRight: "1em",
   },
@@ -26,7 +26,7 @@ const styles = {
 
 const Footer = () => {
   return (
-    <div style={styles.copyright} className="container-fluid col-sm">
+    <div style={styles.copyright}>
       <p style={styles.text}>
         Copyright &copy; {new Date().getFullYear()} - EFWB FERRIERES
       </p>

@@ -1,19 +1,15 @@
-import React from 'react';
-import './App.css';
-import Footer from './containers/Footer'
-import Cards from './components/Cards'
-import Banner from './containers/Banner'
+import React from "react";
+import "./App.css";
+
+import Cards from "./components/Cards";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-       
-      </header>
-      <Banner />
-      {/* <Title /> */}
+    <div className="App-header">
       <Cards />
-      <Footer />
+    </div>
     </div>
   );
 }

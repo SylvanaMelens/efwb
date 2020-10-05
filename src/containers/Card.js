@@ -13,7 +13,7 @@ export default class Card extends Component {
 
     return (
       <div style={{ backgroundColor: color }}>
-        <a href={outerLink} target="_blank" rel="noopener noreferrer">
+        <a href={outerLink}>
           <img className="card" src={src} alt={title} />
         </a>
       </div>

@@ -12,7 +12,7 @@ const styles = {
   },
   image: {
     maxWidth: "70%",
-    marginBottom: "1.5em",
+    marginBottom: "1.2em",
   },
 };
 
