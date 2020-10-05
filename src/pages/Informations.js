@@ -11,7 +11,7 @@ const Informations = (props) => {
   return (
     <>
       <overlay>
-        <h1>INFORMATIONS</h1>
+        <h1 id="informations">INFORMATIONS</h1>
         <h2>CONTACT</h2>
         <ul>
           <li>
@@ -25,7 +25,7 @@ const Informations = (props) => {
             </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faMapMarkerAlt} />{" "} Pré du Fa 7, 4190
+            <FontAwesomeIcon icon={faMapMarkerAlt} /> Pré du Fa 7, 4190
             Ferrières
           </li>
           <p>Direction : Laetitia Fabry</p>

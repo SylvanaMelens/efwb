@@ -10,7 +10,7 @@ export default {
     image1: {
         title: 'informations',
         src: 'informationsdessins.jpg',
-        outerLink: '/informations',
+        outerLink: '#informations',
         desc: 'INFORMATIONS',
         component: 'Informations',
         color: 'red'
@@ -18,7 +18,7 @@ export default {
     image2: {
         title: 'repas',
         src: 'repasdessin.jpg',
-        outerLink: '/repas',
+        outerLink: '#repas',
         desc: 'REPAS',
         component: 'Meals',
         color: 'lime'
@@ -26,7 +26,7 @@ export default {
     image3: {
         title: 'activites',
         src: 'activitesdessin.jpg',
-        outerLink: '/activites',
+        outerLink: '#activites',
         desc: 'ACTIVITES',
         component: 'Activities',
         color: 'orange'
